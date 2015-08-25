@@ -1,0 +1,817 @@
+Plugin ID,CVE,CVSS,Risk,Host,Protocol,Port,Name,Synopsis,Description,Solution,See Also,Plugin Output11217,,,None,169.254.157.17,tcp,445,Microsoft SQL Server Detection (credentialed check),The remote host has a database server installed.,"Nessus has detected one or more installs of Microsoft SQL server by
+examining the registry and file systems on the remote host.",Ensure the latest service pack and hotfixes are installed.,http://www.microsoft.com/sqlserver/en/us/default.aspx,"
+  Version             : 10.0.2531.0 (2008 SP1) Express Edition
+  Path                : c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\Binn
+  Named Instance      : sqlexpress
+  Recommended Version : 10.0.6535 (2008 SP4 + MS15-058 Fix (QFE) (KB 3045308)).
+
+"19506,,,None,169.254.157.17,tcp,0,Nessus Scan Information,Information about the Nessus scan.,"This script displays, for each tested host, information about the scan
+itself :
+
+ - The version of the plugin set
+ - The type of scanner (Nessus or Nessus Home)
+ - The version of the Nessus Engine
+ - The port scanner(s) used
+ - The port range scanned
+ - Whether credentialed or third-party patch management
+   checks are possible
+ - The date of the scan
+ - The duration of the scan
+ - The number of hosts scanned in parallel
+ - The number of checks done in parallel",n/a,,"Information about this scan : 
+
+Nessus version : 6.4.3
+Plugin feed version : 201508181415
+Scanner edition used : Nessus
+Scan type : Normal
+Scan policy used : Web Application Policy
+Scanner IP : 169.254.81.3
+Port scanner(s) : wmi_netstat 
+Port range : default
+Thorough tests : yes
+Experimental tests : no
+Paranoia level : 1
+Report Verbosity : 1
+Safe checks : yes
+Optimize the test : yes
+Credentialed checks : no
+Patch management checks : None
+CGI scanning : enabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing: Yes
+Scan Start Date : 2015/8/19 17:41 GMT
+Scan duration : 230 sec
+"34220,,,None,169.254.157.17,tcp,135,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 135/tcp was found to be open34220,,,None,169.254.157.17,tcp,445,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 445/tcp was found to be open34220,,,None,169.254.157.17,tcp,515,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 515/tcp was found to be open34220,,,None,169.254.157.17,tcp,49152,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49152/tcp was found to be open34220,,,None,169.254.157.17,tcp,49153,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49153/tcp was found to be open34220,,,None,169.254.157.17,tcp,49154,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49154/tcp was found to be open34220,,,None,169.254.157.17,tcp,49155,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49155/tcp was found to be open34220,,,None,169.254.157.17,tcp,49156,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49156/tcp was found to be open34220,,,None,169.254.157.17,tcp,49193,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49193/tcp was found to be open34220,,,None,169.254.157.17,tcp,139,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 139/tcp was found to be open34220,,,None,169.254.157.17,udp,500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 500/udp was found to be open34220,,,None,169.254.157.17,udp,4500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 4500/udp was found to be open34220,,,None,169.254.157.17,udp,5355,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 5355/udp was found to be open34220,,,None,169.254.157.17,udp,50421,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 50421/udp was found to be open34220,,,None,169.254.157.17,udp,137,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 137/udp was found to be open34220,,,None,169.254.157.17,udp,138,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 138/udp was found to be open34220,,,None,169.254.157.17,udp,1900,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 1900/udp was found to be open34220,,,None,169.254.157.17,udp,55710,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 55710/udp was found to be open34220,,,None,169.254.157.17,tcp,0,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,42897,,,None,169.254.157.17,tcp,0,SMB Registry : Start the Registry Service during the scan (WMI),The registry service was enabled for the duration of the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down, this plugin will attempt to start for the duration of
+the scan.
+
+You need to explicitely set the option 'Start the Registry Service',
+'Advanced->Start the Registry' for this plugin to work.",n/a,,"
+The registry service was successfully started for the duration of the scan."42898,,,None,169.254.157.17,tcp,0,SMB Registry : Stop the Registry Service after the scan (WMI),The registry service was stopped after the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down and if Nessus automatically enabled the registry for
+the duration of the scan, this plugins will stop it afterwards.",n/a,,"
+The registry service was successfully stopped after the scan."11217,,,None,169.254.197.189,tcp,445,Microsoft SQL Server Detection (credentialed check),The remote host has a database server installed.,"Nessus has detected one or more installs of Microsoft SQL server by
+examining the registry and file systems on the remote host.",Ensure the latest service pack and hotfixes are installed.,http://www.microsoft.com/sqlserver/en/us/default.aspx,"
+  Version             : 10.0.2531.0 (2008 SP1) Express Edition
+  Path                : c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\Binn
+  Named Instance      : sqlexpress
+  Recommended Version : 10.0.6535 (2008 SP4 + MS15-058 Fix (QFE) (KB 3045308)).
+
+"19506,,,None,169.254.197.189,tcp,0,Nessus Scan Information,Information about the Nessus scan.,"This script displays, for each tested host, information about the scan
+itself :
+
+ - The version of the plugin set
+ - The type of scanner (Nessus or Nessus Home)
+ - The version of the Nessus Engine
+ - The port scanner(s) used
+ - The port range scanned
+ - Whether credentialed or third-party patch management
+   checks are possible
+ - The date of the scan
+ - The duration of the scan
+ - The number of hosts scanned in parallel
+ - The number of checks done in parallel",n/a,,"Information about this scan : 
+
+Nessus version : 6.4.3
+Plugin feed version : 201508181415
+Scanner edition used : Nessus
+Scan type : Normal
+Scan policy used : Web Application Policy
+Scanner IP : 169.254.81.3
+Port scanner(s) : wmi_netstat 
+Port range : default
+Thorough tests : yes
+Experimental tests : no
+Paranoia level : 1
+Report Verbosity : 1
+Safe checks : yes
+Optimize the test : yes
+Credentialed checks : no
+Patch management checks : None
+CGI scanning : enabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing: Yes
+Scan Start Date : 2015/8/19 17:41 GMT
+Scan duration : 231 sec
+"34220,,,None,169.254.197.189,tcp,135,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 135/tcp was found to be open34220,,,None,169.254.197.189,tcp,445,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 445/tcp was found to be open34220,,,None,169.254.197.189,tcp,515,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 515/tcp was found to be open34220,,,None,169.254.197.189,tcp,49152,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49152/tcp was found to be open34220,,,None,169.254.197.189,tcp,49153,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49153/tcp was found to be open34220,,,None,169.254.197.189,tcp,49154,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49154/tcp was found to be open34220,,,None,169.254.197.189,tcp,49155,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49155/tcp was found to be open34220,,,None,169.254.197.189,tcp,49156,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49156/tcp was found to be open34220,,,None,169.254.197.189,tcp,49195,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49195/tcp was found to be open34220,,,None,169.254.197.189,tcp,139,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 139/tcp was found to be open34220,,,None,169.254.197.189,udp,500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 500/udp was found to be open34220,,,None,169.254.197.189,udp,4500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 4500/udp was found to be open34220,,,None,169.254.197.189,udp,5355,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 5355/udp was found to be open34220,,,None,169.254.197.189,udp,64924,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 64924/udp was found to be open34220,,,None,169.254.197.189,udp,137,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 137/udp was found to be open34220,,,None,169.254.197.189,udp,138,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 138/udp was found to be open34220,,,None,169.254.197.189,udp,1900,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 1900/udp was found to be open34220,,,None,169.254.197.189,udp,50791,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 50791/udp was found to be open34220,,,None,169.254.197.189,tcp,0,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,42897,,,None,169.254.197.189,tcp,0,SMB Registry : Start the Registry Service during the scan (WMI),The registry service was enabled for the duration of the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down, this plugin will attempt to start for the duration of
+the scan.
+
+You need to explicitely set the option 'Start the Registry Service',
+'Advanced->Start the Registry' for this plugin to work.",n/a,,"
+The registry service was successfully started for the duration of the scan."42898,,,None,169.254.197.189,tcp,0,SMB Registry : Stop the Registry Service after the scan (WMI),The registry service was stopped after the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down and if Nessus automatically enabled the registry for
+the duration of the scan, this plugins will stop it afterwards.",n/a,,"
+The registry service was successfully stopped after the scan."11217,,,None,169.254.248.143,tcp,445,Microsoft SQL Server Detection (credentialed check),The remote host has a database server installed.,"Nessus has detected one or more installs of Microsoft SQL server by
+examining the registry and file systems on the remote host.",Ensure the latest service pack and hotfixes are installed.,http://www.microsoft.com/sqlserver/en/us/default.aspx,"
+  Version             : 10.0.2531.0 (2008 SP1) Express Edition
+  Path                : c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\Binn
+  Named Instance      : sqlexpress
+  Recommended Version : 10.0.6535 (2008 SP4 + MS15-058 Fix (QFE) (KB 3045308)).
+
+"19506,,,None,169.254.248.143,tcp,0,Nessus Scan Information,Information about the Nessus scan.,"This script displays, for each tested host, information about the scan
+itself :
+
+ - The version of the plugin set
+ - The type of scanner (Nessus or Nessus Home)
+ - The version of the Nessus Engine
+ - The port scanner(s) used
+ - The port range scanned
+ - Whether credentialed or third-party patch management
+   checks are possible
+ - The date of the scan
+ - The duration of the scan
+ - The number of hosts scanned in parallel
+ - The number of checks done in parallel",n/a,,"Information about this scan : 
+
+Nessus version : 6.4.3
+Plugin feed version : 201508181415
+Scanner edition used : Nessus
+Scan type : Normal
+Scan policy used : Web Application Policy
+Scanner IP : 169.254.81.3
+Port scanner(s) : wmi_netstat 
+Port range : default
+Thorough tests : yes
+Experimental tests : no
+Paranoia level : 1
+Report Verbosity : 1
+Safe checks : yes
+Optimize the test : yes
+Credentialed checks : no
+Patch management checks : None
+CGI scanning : enabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing: Yes
+Scan Start Date : 2015/8/19 17:41 GMT
+Scan duration : 222 sec
+"34220,,,None,169.254.248.143,tcp,135,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 135/tcp was found to be open34220,,,None,169.254.248.143,tcp,445,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 445/tcp was found to be open34220,,,None,169.254.248.143,tcp,515,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 515/tcp was found to be open34220,,,None,169.254.248.143,tcp,49152,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49152/tcp was found to be open34220,,,None,169.254.248.143,tcp,49153,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49153/tcp was found to be open34220,,,None,169.254.248.143,tcp,49154,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49154/tcp was found to be open34220,,,None,169.254.248.143,tcp,49155,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49155/tcp was found to be open34220,,,None,169.254.248.143,tcp,49156,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49156/tcp was found to be open34220,,,None,169.254.248.143,tcp,49193,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49193/tcp was found to be open34220,,,None,169.254.248.143,tcp,139,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 139/tcp was found to be open34220,,,None,169.254.248.143,udp,500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 500/udp was found to be open34220,,,None,169.254.248.143,udp,4500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 4500/udp was found to be open34220,,,None,169.254.248.143,udp,5355,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 5355/udp was found to be open34220,,,None,169.254.248.143,udp,51708,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 51708/udp was found to be open34220,,,None,169.254.248.143,udp,137,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 137/udp was found to be open34220,,,None,169.254.248.143,udp,138,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 138/udp was found to be open34220,,,None,169.254.248.143,udp,1900,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 1900/udp was found to be open34220,,,None,169.254.248.143,udp,58575,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 58575/udp was found to be open34220,,,None,169.254.248.143,tcp,0,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,42897,,,None,169.254.248.143,tcp,0,SMB Registry : Start the Registry Service during the scan (WMI),The registry service was enabled for the duration of the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down, this plugin will attempt to start for the duration of
+the scan.
+
+You need to explicitely set the option 'Start the Registry Service',
+'Advanced->Start the Registry' for this plugin to work.",n/a,,"
+The registry service was successfully started for the duration of the scan."42898,,,None,169.254.248.143,tcp,0,SMB Registry : Stop the Registry Service after the scan (WMI),The registry service was stopped after the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down and if Nessus automatically enabled the registry for
+the duration of the scan, this plugins will stop it afterwards.",n/a,,"
+The registry service was successfully stopped after the scan."11217,,,None,169.254.54.51,tcp,445,Microsoft SQL Server Detection (credentialed check),The remote host has a database server installed.,"Nessus has detected one or more installs of Microsoft SQL server by
+examining the registry and file systems on the remote host.",Ensure the latest service pack and hotfixes are installed.,http://www.microsoft.com/sqlserver/en/us/default.aspx,"
+  Version             : 10.0.2531.0 (2008 SP1) Express Edition
+  Path                : c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\Binn
+  Named Instance      : sqlexpress
+  Recommended Version : 10.0.6535 (2008 SP4 + MS15-058 Fix (QFE) (KB 3045308)).
+
+"19506,,,None,169.254.54.51,tcp,0,Nessus Scan Information,Information about the Nessus scan.,"This script displays, for each tested host, information about the scan
+itself :
+
+ - The version of the plugin set
+ - The type of scanner (Nessus or Nessus Home)
+ - The version of the Nessus Engine
+ - The port scanner(s) used
+ - The port range scanned
+ - Whether credentialed or third-party patch management
+   checks are possible
+ - The date of the scan
+ - The duration of the scan
+ - The number of hosts scanned in parallel
+ - The number of checks done in parallel",n/a,,"Information about this scan : 
+
+Nessus version : 6.4.3
+Plugin feed version : 201508181415
+Scanner edition used : Nessus
+Scan type : Normal
+Scan policy used : Web Application Policy
+Scanner IP : 169.254.81.3
+Port scanner(s) : wmi_netstat 
+Port range : default
+Thorough tests : yes
+Experimental tests : no
+Paranoia level : 1
+Report Verbosity : 1
+Safe checks : yes
+Optimize the test : yes
+Credentialed checks : no
+Patch management checks : None
+CGI scanning : enabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing: Yes
+Scan Start Date : 2015/8/19 17:41 GMT
+Scan duration : 229 sec
+"34220,,,None,169.254.54.51,tcp,135,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 135/tcp was found to be open34220,,,None,169.254.54.51,tcp,445,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 445/tcp was found to be open34220,,,None,169.254.54.51,tcp,515,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 515/tcp was found to be open34220,,,None,169.254.54.51,tcp,49152,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49152/tcp was found to be open34220,,,None,169.254.54.51,tcp,49153,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49153/tcp was found to be open34220,,,None,169.254.54.51,tcp,49154,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49154/tcp was found to be open34220,,,None,169.254.54.51,tcp,49155,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49155/tcp was found to be open34220,,,None,169.254.54.51,tcp,49156,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49156/tcp was found to be open34220,,,None,169.254.54.51,tcp,49157,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49157/tcp was found to be open34220,,,None,169.254.54.51,tcp,139,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 139/tcp was found to be open34220,,,None,169.254.54.51,udp,500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 500/udp was found to be open34220,,,None,169.254.54.51,udp,4500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 4500/udp was found to be open34220,,,None,169.254.54.51,udp,5355,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 5355/udp was found to be open34220,,,None,169.254.54.51,udp,49532,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49532/udp was found to be open34220,,,None,169.254.54.51,udp,137,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 137/udp was found to be open34220,,,None,169.254.54.51,udp,138,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 138/udp was found to be open34220,,,None,169.254.54.51,udp,1900,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 1900/udp was found to be open34220,,,None,169.254.54.51,udp,49935,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49935/udp was found to be open34220,,,None,169.254.54.51,tcp,0,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,11217,,,None,169.254.6.46,tcp,445,Microsoft SQL Server Detection (credentialed check),The remote host has a database server installed.,"Nessus has detected one or more installs of Microsoft SQL server by
+examining the registry and file systems on the remote host.",Ensure the latest service pack and hotfixes are installed.,http://www.microsoft.com/sqlserver/en/us/default.aspx,"
+  Version             : 10.0.2531.0 (2008 SP1) Express Edition
+  Path                : c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\Binn
+  Named Instance      : sqlexpress
+  Recommended Version : 10.0.6535 (2008 SP4 + MS15-058 Fix (QFE) (KB 3045308)).
+
+"19506,,,None,169.254.6.46,tcp,0,Nessus Scan Information,Information about the Nessus scan.,"This script displays, for each tested host, information about the scan
+itself :
+
+ - The version of the plugin set
+ - The type of scanner (Nessus or Nessus Home)
+ - The version of the Nessus Engine
+ - The port scanner(s) used
+ - The port range scanned
+ - Whether credentialed or third-party patch management
+   checks are possible
+ - The date of the scan
+ - The duration of the scan
+ - The number of hosts scanned in parallel
+ - The number of checks done in parallel",n/a,,"Information about this scan : 
+
+Nessus version : 6.4.3
+Plugin feed version : 201508181415
+Scanner edition used : Nessus
+Scan type : Normal
+Scan policy used : Web Application Policy
+Scanner IP : 169.254.81.3
+Port scanner(s) : wmi_netstat 
+Port range : default
+Thorough tests : yes
+Experimental tests : no
+Paranoia level : 1
+Report Verbosity : 1
+Safe checks : yes
+Optimize the test : yes
+Credentialed checks : no
+Patch management checks : None
+CGI scanning : enabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : None
+Allow post-scan editing: Yes
+Scan Start Date : 2015/8/19 17:41 GMT
+Scan duration : 224 sec
+"34220,,,None,169.254.6.46,tcp,135,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 135/tcp was found to be open34220,,,None,169.254.6.46,tcp,445,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 445/tcp was found to be open34220,,,None,169.254.6.46,tcp,515,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 515/tcp was found to be open34220,,,None,169.254.6.46,tcp,49152,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49152/tcp was found to be open34220,,,None,169.254.6.46,tcp,49153,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49153/tcp was found to be open34220,,,None,169.254.6.46,tcp,49154,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49154/tcp was found to be open34220,,,None,169.254.6.46,tcp,49155,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49155/tcp was found to be open34220,,,None,169.254.6.46,tcp,49156,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49156/tcp was found to be open34220,,,None,169.254.6.46,tcp,49193,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 49193/tcp was found to be open34220,,,None,169.254.6.46,tcp,139,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 139/tcp was found to be open34220,,,None,169.254.6.46,udp,500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 500/udp was found to be open34220,,,None,169.254.6.46,udp,4500,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 4500/udp was found to be open34220,,,None,169.254.6.46,udp,5355,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 5355/udp was found to be open34220,,,None,169.254.6.46,udp,51796,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 51796/udp was found to be open34220,,,None,169.254.6.46,udp,137,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 137/udp was found to be open34220,,,None,169.254.6.46,udp,138,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 138/udp was found to be open34220,,,None,169.254.6.46,udp,1900,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 1900/udp was found to be open34220,,,None,169.254.6.46,udp,64729,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,Port 64729/udp was found to be open34220,,,None,169.254.6.46,tcp,0,Netstat Portscanner (WMI),The list of open ports could be retrieved by netstat.,"Using the WMI interface, it is possible to get the open ports by
+running the netstat command remotely.",n/a,,42897,,,None,169.254.6.46,tcp,0,SMB Registry : Start the Registry Service during the scan (WMI),The registry service was enabled for the duration of the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down, this plugin will attempt to start for the duration of
+the scan.
+
+You need to explicitely set the option 'Start the Registry Service',
+'Advanced->Start the Registry' for this plugin to work.",n/a,,"
+The registry service was successfully started for the duration of the scan."42898,,,None,169.254.6.46,tcp,0,SMB Registry : Stop the Registry Service after the scan (WMI),The registry service was stopped after the scan.,"To perform a full credentialed scan, Nessus needs the ability to
+connect to the remote registry service (RemoteRegistry). If the
+service is down and if Nessus automatically enabled the registry for
+the duration of the scan, this plugins will stop it afterwards.",n/a,,"
+The registry service was successfully stopped after the scan."10107,,,None,169.254.81.3,tcp,80,HTTP Server Type and Version,A web server is running on the remote host.,"This plugin attempts to determine the type and the version of the
+remote web server.",n/a,,"The remote web server type is :
+
+Apache/2.4.10 (Unix)
+
+You can set the directive 'ServerTokens Prod' to limit the information
+emanating from the server in its response headers."10107,,,None,169.254.81.3,tcp,8834,HTTP Server Type and Version,A web server is running on the remote host.,"This plugin attempts to determine the type and the version of the
+remote web server.",n/a,,"The remote web server type is :
+
+NessusWWW"10147,,,None,169.254.81.3,tcp,8834,Nessus Server Detection,A Nessus daemon is listening on the remote port.,A Nessus daemon is listening on the remote port.,"Make sure that the remote Nessus installation has been authorized. If
+it is, then restrict access to this port.",http://www.tenable.com/products/nessus,"
+  URL               : https://admin-pc.local:8834/
+  Version           : 6.4.3
+  Nessus UI version : 6.4.3
+"10267,,,None,169.254.81.3,tcp,22,SSH Server Type and Version Information,An SSH server is listening on this port.,"It is possible to obtain information about the remote SSH
+server by sending an empty authentication request.",n/a,,"
+SSH version : SSH-2.0-OpenSSH_6.2
+
+"10884,,,None,169.254.81.3,udp,123,Network Time Protocol (NTP) Server Detection,"An NTP server with an insecure configuration is listening on the
+remote host.","An NTP server with an insecure configuration is listening on port 123.
+It provides information about its version, current date, current time,
+and it may also provide system information.",n/a,http://www.ntp.org,"
+  Version : unknown
+"11032,,,None,169.254.81.3,tcp,80,Web Server Directory Enumeration,It is possible to enumerate directories on the web server.,"This plugin attempts to determine the presence of various common
+directories on the remote web server.  By sending a request for a
+directory, the web server response code indicates if it is a valid
+directory or not.",n/a,http://projects.webappsec.org/Predictable-Resource-Location,"
+The following directories were discovered:
+/icons
+
+While this is not, in and of itself, a bug, you should manually inspect 
+these directories to ensure that they are in compliance with company
+security standards
+"11032,,,None,169.254.81.3,tcp,8834,Web Server Directory Enumeration,It is possible to enumerate directories on the web server.,"This plugin attempts to determine the presence of various common
+directories on the remote web server.  By sending a request for a
+directory, the web server response code indicates if it is a valid
+directory or not.",n/a,http://projects.webappsec.org/Predictable-Resource-Location,"
+
+The following directories require authentication:
+/users, /session"12634,,,None,169.254.81.3,tcp,0,Authenticated Check : OS Name and Installed Package Enumeration,"This plugin gathers information about the remote host via an
+authenticated session.","This plugin logs into the remote host using SSH, RSH, RLOGIN, Telnet,
+or local commands and extracts the list of installed packages.
+
+If using SSH, the scan should be configured with a valid SSH public
+key and possibly an SSH passphrase (if the SSH public key is protected
+by a passphrase).",n/a,,"Nessus can run commands on localhost to check if patches are applied.
+
+The output of ""uname -a"" is :
+Darwin ADMIN-PC.local 14.4.0 Darwin Kernel Version 14.4.0: Thu May 28 11:35:04 PDT 2015; root:xnu-2782.30.5~1/RELEASE_X86_64 x86_64
+
+Local security checks have been enabled for this host."14272,,,None,169.254.81.3,tcp,445,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 445/tcp was found to be open14272,,,None,169.254.81.3,tcp,17500,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 17500/tcp was found to be open14272,,,None,169.254.81.3,tcp,8834,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 8834/tcp was found to be open14272,,,None,169.254.81.3,tcp,88,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 88/tcp was found to be open14272,,,None,169.254.81.3,tcp,80,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 80/tcp was found to be open14272,,,None,169.254.81.3,tcp,22,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 22/tcp was found to be open14272,,,None,169.254.81.3,udp,68,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 68/udp was found to be open14272,,,None,169.254.81.3,udp,63822,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 63822/udp was found to be open14272,,,None,169.254.81.3,udp,53844,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 53844/udp was found to be open14272,,,None,169.254.81.3,udp,64778,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 64778/udp was found to be open14272,,,None,169.254.81.3,udp,17500,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 17500/udp was found to be open14272,,,None,169.254.81.3,udp,62329,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 62329/udp was found to be open14272,,,None,169.254.81.3,udp,123,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 123/udp was found to be open14272,,,None,169.254.81.3,udp,88,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 88/udp was found to be open14272,,,None,169.254.81.3,udp,5353,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 5353/udp was found to be open14272,,,None,169.254.81.3,udp,137,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 137/udp was found to be open14272,,,None,169.254.81.3,udp,138,netstat portscanner (SSH),Remote open ports are enumerated via SSH.,"This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.",n/a,,Port 138/udp was found to be open19506,,,None,169.254.81.3,tcp,0,Nessus Scan Information,Information about the Nessus scan.,"This script displays, for each tested host, information about the scan
+itself :
+
+ - The version of the plugin set
+ - The type of scanner (Nessus or Nessus Home)
+ - The version of the Nessus Engine
+ - The port scanner(s) used
+ - The port range scanned
+ - Whether credentialed or third-party patch management
+   checks are possible
+ - The date of the scan
+ - The duration of the scan
+ - The number of hosts scanned in parallel
+ - The number of checks done in parallel",n/a,,"Information about this scan : 
+
+Nessus version : 6.4.3
+Plugin feed version : 201508181415
+Scanner edition used : Nessus
+Scan type : Normal
+Scan policy used : Web Application Policy
+Scanner IP : 169.254.81.3
+Thorough tests : yes
+Experimental tests : no
+Paranoia level : 1
+Report Verbosity : 1
+Safe checks : yes
+Optimize the test : yes
+Credentialed checks : yes (on the localhost)
+Patch management checks : None
+CGI scanning : enabled
+Web application tests : disabled
+Max hosts : 100
+Max checks : 5
+Recv timeout : 5
+Backports : Detected
+Allow post-scan editing: Yes
+Scan Start Date : 2015/8/19 17:41 GMT
+Scan duration : 253 sec
+"22964,,,None,169.254.81.3,tcp,8834,Service Detection,The remote service could be identified.,"It was possible to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,"A TLSv1 server answered on this port.
+"22964,,,None,169.254.81.3,tcp,22,Service Detection,The remote service could be identified.,"It was possible to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,An SSH server is running on this port.22964,,,None,169.254.81.3,tcp,80,Service Detection,The remote service could be identified.,"It was possible to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,A web server is running on this port.22964,,,None,169.254.81.3,tcp,8834,Service Detection,The remote service could be identified.,"It was possible to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,A web server is running on this port through TLSv1.24260,,,None,169.254.81.3,tcp,80,HyperText Transfer Protocol (HTTP) Information,Some information about the remote HTTP configuration can be extracted.,"This test gives some information about the remote HTTP protocol - the
+version used, whether HTTP Keep-Alive and HTTP pipelining are enabled,
+etc... 
+
+This test is informational only and does not denote any security
+problem.",n/a,,"
+Protocol version : HTTP/1.1
+SSL : no
+Keep-Alive : yes
+Options allowed : (Not implemented)
+Headers :
+
+  Date: Wed, 19 Aug 2015 16:44:17 GMT
+  Server: Apache/2.4.10 (Unix)
+  Content-Location: index.html.en
+  Vary: negotiate
+  TCN: choice
+  Last-Modified: Mon, 11 Jun 2007 18:53:14 GMT
+  ETag: ""2d-432a5e4a73a80""
+  Accept-Ranges: bytes
+  Content-Length: 45
+  Keep-Alive: timeout=5, max=100
+  Connection: Keep-Alive
+  Content-Type: text/html
+  
+"24260,,,None,169.254.81.3,tcp,8834,HyperText Transfer Protocol (HTTP) Information,Some information about the remote HTTP configuration can be extracted.,"This test gives some information about the remote HTTP protocol - the
+version used, whether HTTP Keep-Alive and HTTP pipelining are enabled,
+etc... 
+
+This test is informational only and does not denote any security
+problem.",n/a,,"
+Protocol version : HTTP/1.1
+SSL : yes
+Keep-Alive : no
+Options allowed : (Not implemented)
+Headers :
+
+  Date: Wed, 19 Aug 2015 16:44:17 GMT
+  Server: NessusWWW
+  Connection: close
+  Cache-Control: 
+  Pragma: 
+  Expires: 0
+  Content-Type: text/html
+  Content-Length: 11933
+  Etag: 2e4d643a7bcd8715c25971121312c559
+  X-Frame-Options: DENY
+  
+"35297,,,None,169.254.81.3,tcp,17500,SSL Service Requests Client Certificate,The remote service requests an SSL client certificate.,"The remote service encrypts communications using SSL / TLS, requests a
+client certificate, and may require a valid certificate in order to
+establish a connection to the underlying service.",n/a,,"
+A TLSv1 server is listening on this port.
+"43111,,,None,169.254.81.3,tcp,80,HTTP Methods Allowed (per directory),"This plugin determines which HTTP methods are allowed on various CGI
+directories.","By calling the OPTIONS method, it is possible to determine which HTTP 
+methods are allowed on each directory. 
+
+As this list may be incomplete, the plugin also tests - if 'Thorough
+tests' are enabled or 'Enable web applications tests' is set to 'yes'
+in the scan policy - various known HTTP methods on each directory and
+considers them as unsupported if it receives a response code of 400,
+403, 405, or 501. 
+
+Note that the plugin output is only informational and does not
+necessarily indicate the presence of any security vulnerabilities.",n/a,,"Based on the response to an OPTIONS request :
+
+  - HTTP methods GET HEAD OPTIONS POST are allowed on : 
+
+    /
+    /icons
+
+
+Based on tests of each method : 
+
+  - HTTP methods GET HEAD OPTIONS POST are allowed on : 
+
+    /
+    /icons
+
+"43111,,,None,169.254.81.3,tcp,8834,HTTP Methods Allowed (per directory),"This plugin determines which HTTP methods are allowed on various CGI
+directories.","By calling the OPTIONS method, it is possible to determine which HTTP 
+methods are allowed on each directory. 
+
+As this list may be incomplete, the plugin also tests - if 'Thorough
+tests' are enabled or 'Enable web applications tests' is set to 'yes'
+in the scan policy - various known HTTP methods on each directory and
+considers them as unsupported if it receives a response code of 400,
+403, 405, or 501. 
+
+Note that the plugin output is only informational and does not
+necessarily indicate the presence of any security vulnerabilities.",n/a,,"
+Based on tests of each method : 
+
+  - HTTP method GET is allowed on :
+
+    /
+
+"50845,,,None,169.254.81.3,tcp,17500,OpenSSL Detection,The remote service appears to use OpenSSL to encrypt traffic.,"Based on its response to a TLS request with a specially crafted
+server name extension, it seems that the remote service is using the
+OpenSSL library to encrypt traffic.
+
+Note that this plugin can only detect OpenSSL implementations that
+have enabled support for TLS extensions (RFC 4366).",n/a,http://www.openssl.org,50845,,,None,169.254.81.3,tcp,8834,OpenSSL Detection,The remote service appears to use OpenSSL to encrypt traffic.,"Based on its response to a TLS request with a specially crafted
+server name extension, it seems that the remote service is using the
+OpenSSL library to encrypt traffic.
+
+Note that this plugin can only detect OpenSSL implementations that
+have enabled support for TLS extensions (RFC 4366).",n/a,http://www.openssl.org,66717,,,None,169.254.81.3,udp,5353,mDNS Detection (Local Network),It is possible to obtain information about the remote host.,"The remote service understands the Bonjour (also known as ZeroConf or
+mDNS) protocol, which allows anyone to uncover information from the
+remote host such as its operating system type and exact version, its
+hostname, and the list of services it is running. 
+
+This plugin attempts to discover mDNS used by hosts residing on the same
+network segment as Nessus.","Filter incoming traffic to UDP port 5353, if desired.",,"Nessus was able to extract the following information :
+
+  - mDNS hostname       : ADMIN-PC.local.
+
+  - Advertised services :
+    o Service name      : ADMIN-PC._ssh._tcp.local.
+      Port number       : 22
+    o Service name      : ADMIN-PC._sftp-ssh._tcp.local.
+      Port number       : 22
+    o Service name      : ADMIN-PC._smb._tcp.local.
+      Port number       : 445
+
+"84502,,,None,169.254.81.3,tcp,8834,HSTS Missing From HTTPS Server,The remote web server is not enforcing HSTS.,"The remote HTTPS server is not enforcing HTTP Strict Transport
+Security (HSTS). The lack of HSTS allows downgrade attacks,
+SSL-stripping man-in-the-middle attacks, and weakens cookie-hijacking
+protections.",Configure the remote web server to use HSTS.,https://tools.ietf.org/html/rfc6797,"
+  The remote HTTPS server does not send the HTTP
+  ""Strict-Transport-Security"" header.
+"84959,CVE-2015-0228,5,Medium,169.254.81.3,tcp,80,Apache 2.4.x < 2.4.16 Multiple Vulnerabilities,The remote web server is affected by multiple vulnerabilities.,"According to its banner, the version of Apache 2.4.x installed on the
+remote host is prior to 2.4.16. It is, therefore, affected by the
+following vulnerabilities :
+
+  - A flaw exists in the lua_websocket_read() function in
+    the 'mod_lua' module due to incorrect handling of
+    WebSocket PING frames. A remote attacker can exploit
+    this, by sending a crafted WebSocket PING frame after a
+    Lua script has called the wsupgrade() function, to crash
+    a child process, resulting in a denial of service
+    condition. (CVE-2015-0228)
+
+  - A NULL pointer dereference flaw exists in the
+    read_request_line() function due to a failure to
+    initialize the protocol structure member. A remote 
+    attacker can exploit this flaw, on installations that
+    enable the INCLUDES filter and has an ErrorDocument 400
+    directive specifying a local URI, by sending a request
+    that lacks a method, to cause a denial of service
+    condition. (CVE-2015-0253)
+
+  - A flaw exists in the chunked transfer coding
+    implementation due to a failure to properly parse chunk
+    headers. A remote attacker can exploit this to conduct
+    HTTP request smuggling attacks. (CVE-2015-3183)
+
+  - A flaw exists in the ap_some_auth_required() function
+    due to a failure to consider that a Require directive
+    may be associated with an authorization setting rather
+    than an authentication setting. A remote attacker can
+    exploit this, if a module that relies on the 2.2 API
+    behavior exists, to bypass intended access restrictions.
+    (CVE-2015-3185)
+
+Note that Nessus has not tested for these issues but has instead
+relied only on the application's self-reported version number.","Upgrade to Apache version 2.4.16 or later. Alternatively, ensure that
+the affected modules are not in use.","http://www.apache.org/dist/httpd/CHANGES_2.4.16
+http://httpd.apache.org/security/vulnerabilities_24.html","
+  Version source    : Server: Apache/2.4.10
+  Installed version : 2.4.10
+  Fixed version     : 2.4.16
+"84959,CVE-2015-0253,5,Medium,169.254.81.3,tcp,80,Apache 2.4.x < 2.4.16 Multiple Vulnerabilities,The remote web server is affected by multiple vulnerabilities.,"According to its banner, the version of Apache 2.4.x installed on the
+remote host is prior to 2.4.16. It is, therefore, affected by the
+following vulnerabilities :
+
+  - A flaw exists in the lua_websocket_read() function in
+    the 'mod_lua' module due to incorrect handling of
+    WebSocket PING frames. A remote attacker can exploit
+    this, by sending a crafted WebSocket PING frame after a
+    Lua script has called the wsupgrade() function, to crash
+    a child process, resulting in a denial of service
+    condition. (CVE-2015-0228)
+
+  - A NULL pointer dereference flaw exists in the
+    read_request_line() function due to a failure to
+    initialize the protocol structure member. A remote 
+    attacker can exploit this flaw, on installations that
+    enable the INCLUDES filter and has an ErrorDocument 400
+    directive specifying a local URI, by sending a request
+    that lacks a method, to cause a denial of service
+    condition. (CVE-2015-0253)
+
+  - A flaw exists in the chunked transfer coding
+    implementation due to a failure to properly parse chunk
+    headers. A remote attacker can exploit this to conduct
+    HTTP request smuggling attacks. (CVE-2015-3183)
+
+  - A flaw exists in the ap_some_auth_required() function
+    due to a failure to consider that a Require directive
+    may be associated with an authorization setting rather
+    than an authentication setting. A remote attacker can
+    exploit this, if a module that relies on the 2.2 API
+    behavior exists, to bypass intended access restrictions.
+    (CVE-2015-3185)
+
+Note that Nessus has not tested for these issues but has instead
+relied only on the application's self-reported version number.","Upgrade to Apache version 2.4.16 or later. Alternatively, ensure that
+the affected modules are not in use.","http://www.apache.org/dist/httpd/CHANGES_2.4.16
+http://httpd.apache.org/security/vulnerabilities_24.html","
+  Version source    : Server: Apache/2.4.10
+  Installed version : 2.4.10
+  Fixed version     : 2.4.16
+"84959,CVE-2015-3183,5,Medium,169.254.81.3,tcp,80,Apache 2.4.x < 2.4.16 Multiple Vulnerabilities,The remote web server is affected by multiple vulnerabilities.,"According to its banner, the version of Apache 2.4.x installed on the
+remote host is prior to 2.4.16. It is, therefore, affected by the
+following vulnerabilities :
+
+  - A flaw exists in the lua_websocket_read() function in
+    the 'mod_lua' module due to incorrect handling of
+    WebSocket PING frames. A remote attacker can exploit
+    this, by sending a crafted WebSocket PING frame after a
+    Lua script has called the wsupgrade() function, to crash
+    a child process, resulting in a denial of service
+    condition. (CVE-2015-0228)
+
+  - A NULL pointer dereference flaw exists in the
+    read_request_line() function due to a failure to
+    initialize the protocol structure member. A remote 
+    attacker can exploit this flaw, on installations that
+    enable the INCLUDES filter and has an ErrorDocument 400
+    directive specifying a local URI, by sending a request
+    that lacks a method, to cause a denial of service
+    condition. (CVE-2015-0253)
+
+  - A flaw exists in the chunked transfer coding
+    implementation due to a failure to properly parse chunk
+    headers. A remote attacker can exploit this to conduct
+    HTTP request smuggling attacks. (CVE-2015-3183)
+
+  - A flaw exists in the ap_some_auth_required() function
+    due to a failure to consider that a Require directive
+    may be associated with an authorization setting rather
+    than an authentication setting. A remote attacker can
+    exploit this, if a module that relies on the 2.2 API
+    behavior exists, to bypass intended access restrictions.
+    (CVE-2015-3185)
+
+Note that Nessus has not tested for these issues but has instead
+relied only on the application's self-reported version number.","Upgrade to Apache version 2.4.16 or later. Alternatively, ensure that
+the affected modules are not in use.","http://www.apache.org/dist/httpd/CHANGES_2.4.16
+http://httpd.apache.org/security/vulnerabilities_24.html","
+  Version source    : Server: Apache/2.4.10
+  Installed version : 2.4.10
+  Fixed version     : 2.4.16
+"84959,CVE-2015-3185,5,Medium,169.254.81.3,tcp,80,Apache 2.4.x < 2.4.16 Multiple Vulnerabilities,The remote web server is affected by multiple vulnerabilities.,"According to its banner, the version of Apache 2.4.x installed on the
+remote host is prior to 2.4.16. It is, therefore, affected by the
+following vulnerabilities :
+
+  - A flaw exists in the lua_websocket_read() function in
+    the 'mod_lua' module due to incorrect handling of
+    WebSocket PING frames. A remote attacker can exploit
+    this, by sending a crafted WebSocket PING frame after a
+    Lua script has called the wsupgrade() function, to crash
+    a child process, resulting in a denial of service
+    condition. (CVE-2015-0228)
+
+  - A NULL pointer dereference flaw exists in the
+    read_request_line() function due to a failure to
+    initialize the protocol structure member. A remote 
+    attacker can exploit this flaw, on installations that
+    enable the INCLUDES filter and has an ErrorDocument 400
+    directive specifying a local URI, by sending a request
+    that lacks a method, to cause a denial of service
+    condition. (CVE-2015-0253)
+
+  - A flaw exists in the chunked transfer coding
+    implementation due to a failure to properly parse chunk
+    headers. A remote attacker can exploit this to conduct
+    HTTP request smuggling attacks. (CVE-2015-3183)
+
+  - A flaw exists in the ap_some_auth_required() function
+    due to a failure to consider that a Require directive
+    may be associated with an authorization setting rather
+    than an authentication setting. A remote attacker can
+    exploit this, if a module that relies on the 2.2 API
+    behavior exists, to bypass intended access restrictions.
+    (CVE-2015-3185)
+
+Note that Nessus has not tested for these issues but has instead
+relied only on the application's self-reported version number.","Upgrade to Apache version 2.4.16 or later. Alternatively, ensure that
+the affected modules are not in use.","http://www.apache.org/dist/httpd/CHANGES_2.4.16
+http://httpd.apache.org/security/vulnerabilities_24.html","
+  Version source    : Server: Apache/2.4.10
+  Installed version : 2.4.10
+  Fixed version     : 2.4.16
+"

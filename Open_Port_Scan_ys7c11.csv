@@ -1,0 +1,528 @@
+Plugin ID,CVE,CVSS,Risk,Host,Protocol,Port,Name,Synopsis,Description,Solution,See Also,Plugin Output
+"10180","","","None","169.254.157.17","tcp","0","Ping the remote host","It was possible to identify the status of the remote host (alive or dead)","This plugin attempts to determine if the remote host is alive using one or more
+ping types :
+
+  - An ARP ping, provided the host is on the local subnet
+    and Nessus is running over ethernet.
+
+  - An ICMP ping.
+
+  - A TCP ping, in which the plugin sends to the remote host 
+    a packet with the flag SYN, and the host will reply with
+    a RST or a SYN/ACK. 
+
+  - A UDP ping (DNS, RPC, NTP, etc).","n/a","","The remote host is up
+The host replied to an ARP who-is query.
+Hardware address : bc:30:5b:be:33:9d"
+"11219","","","None","169.254.157.17","tcp","139","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 139/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","135","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 135/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","445","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 445/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","515","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 515/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","49156","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49156/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","49153","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49153/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","49154","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49154/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","49155","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49155/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","49152","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49152/tcp was found to be open"
+"11219","","","None","169.254.157.17","tcp","49193","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49193/tcp was found to be open"
+"10180","","","None","169.254.197.189","tcp","0","Ping the remote host","It was possible to identify the status of the remote host (alive or dead)","This plugin attempts to determine if the remote host is alive using one or more
+ping types :
+
+  - An ARP ping, provided the host is on the local subnet
+    and Nessus is running over ethernet.
+
+  - An ICMP ping.
+
+  - A TCP ping, in which the plugin sends to the remote host 
+    a packet with the flag SYN, and the host will reply with
+    a RST or a SYN/ACK. 
+
+  - A UDP ping (DNS, RPC, NTP, etc).","n/a","","The remote host is up
+The host replied to an ARP who-is query.
+Hardware address : b8:ac:6f:21:11:58"
+"11219","","","None","169.254.197.189","tcp","139","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 139/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","135","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 135/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","445","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 445/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","515","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 515/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","49156","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49156/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","49153","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49153/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","49154","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49154/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","49195","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49195/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","49155","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49155/tcp was found to be open"
+"11219","","","None","169.254.197.189","tcp","49152","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49152/tcp was found to be open"
+"10180","","","None","169.254.248.143","tcp","0","Ping the remote host","It was possible to identify the status of the remote host (alive or dead)","This plugin attempts to determine if the remote host is alive using one or more
+ping types :
+
+  - An ARP ping, provided the host is on the local subnet
+    and Nessus is running over ethernet.
+
+  - An ICMP ping.
+
+  - A TCP ping, in which the plugin sends to the remote host 
+    a packet with the flag SYN, and the host will reply with
+    a RST or a SYN/ACK. 
+
+  - A UDP ping (DNS, RPC, NTP, etc).","n/a","","The remote host is up
+The host replied to an ARP who-is query.
+Hardware address : bc:30:5b:be:33:9a"
+"11219","","","None","169.254.248.143","tcp","139","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 139/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","135","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 135/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","445","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 445/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","515","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 515/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","49156","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49156/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","49153","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49153/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","49154","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49154/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","49155","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49155/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","49152","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49152/tcp was found to be open"
+"11219","","","None","169.254.248.143","tcp","49193","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49193/tcp was found to be open"
+"10180","","","None","169.254.54.51","tcp","0","Ping the remote host","It was possible to identify the status of the remote host (alive or dead)","This plugin attempts to determine if the remote host is alive using one or more
+ping types :
+
+  - An ARP ping, provided the host is on the local subnet
+    and Nessus is running over ethernet.
+
+  - An ICMP ping.
+
+  - A TCP ping, in which the plugin sends to the remote host 
+    a packet with the flag SYN, and the host will reply with
+    a RST or a SYN/ACK. 
+
+  - A UDP ping (DNS, RPC, NTP, etc).","n/a","","The remote host is up
+The host replied to an ARP who-is query.
+Hardware address : bc:30:5b:be:f0:9e"
+"11219","","","None","169.254.54.51","tcp","139","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 139/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","135","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 135/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","445","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 445/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","515","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 515/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","49156","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49156/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","49153","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49153/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","49157","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49157/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","49154","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49154/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","49155","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49155/tcp was found to be open"
+"11219","","","None","169.254.54.51","tcp","49152","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49152/tcp was found to be open"
+"10180","","","None","169.254.6.46","tcp","0","Ping the remote host","It was possible to identify the status of the remote host (alive or dead)","This plugin attempts to determine if the remote host is alive using one or more
+ping types :
+
+  - An ARP ping, provided the host is on the local subnet
+    and Nessus is running over ethernet.
+
+  - An ICMP ping.
+
+  - A TCP ping, in which the plugin sends to the remote host 
+    a packet with the flag SYN, and the host will reply with
+    a RST or a SYN/ACK. 
+
+  - A UDP ping (DNS, RPC, NTP, etc).","n/a","","The remote host is up
+The host replied to an ARP who-is query.
+Hardware address : bc:30:5b:be:35:73"
+"11219","","","None","169.254.6.46","tcp","139","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 139/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","135","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 135/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","445","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 445/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","515","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 515/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","49156","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49156/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","49153","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49153/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","49154","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49154/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","49155","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49155/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","49193","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49193/tcp was found to be open"
+"11219","","","None","169.254.6.46","tcp","49152","Nessus SYN scanner","It is possible to determine which TCP ports are open.","This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.","Protect your target with an IP filter.","","Port 49152/tcp was found to be open"
+"10180","","","None","admin-pc.local","tcp","0","Ping the remote host","It was possible to identify the status of the remote host (alive or dead)","This plugin attempts to determine if the remote host is alive using one or more
+ping types :
+
+  - An ARP ping, provided the host is on the local subnet
+    and Nessus is running over ethernet.
+
+  - An ICMP ping.
+
+  - A TCP ping, in which the plugin sends to the remote host 
+    a packet with the flag SYN, and the host will reply with
+    a RST or a SYN/ACK. 
+
+  - A UDP ping (DNS, RPC, NTP, etc).","n/a","","The remote host is up
+The host is the local scanner."
+"14272","","","None","admin-pc.local","tcp","445","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 445/tcp was found to be open"
+"14272","","","None","admin-pc.local","tcp","17500","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 17500/tcp was found to be open"
+"14272","","","None","admin-pc.local","tcp","8834","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 8834/tcp was found to be open"
+"14272","","","None","admin-pc.local","tcp","88","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 88/tcp was found to be open"
+"14272","","","None","admin-pc.local","tcp","80","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 80/tcp was found to be open"
+"14272","","","None","admin-pc.local","tcp","22","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 22/tcp was found to be open"
+"14272","","","None","admin-pc.local","udp","68","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 68/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","61308","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 61308/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","56585","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 56585/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","55022","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 55022/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","64252","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 64252/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","50850","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 50850/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","49754","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 49754/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","60133","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 60133/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","57183","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 57183/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","17500","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 17500/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","62329","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 62329/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","123","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 123/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","88","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 88/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","5353","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 5353/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","137","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 137/udp was found to be open"
+"14272","","","None","admin-pc.local","udp","138","netstat portscanner (SSH)","Remote open ports are enumerated via SSH.","This plugin runs 'netstat' on the remote machine to enumerate open
+ports.
+
+See the section 'plugins options' to configure it.","n/a","","Port 138/udp was found to be open"
